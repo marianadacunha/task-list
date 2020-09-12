@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <form action="/add" method="POST">
+        <input id="task" name="task" type="text" placeholder="Enter your task here" autofocus>
+        <input id="submit" type="submit" disabled> 
+    </form>
+    <script src="../static/main.js"></script>
+{% endblock %}
